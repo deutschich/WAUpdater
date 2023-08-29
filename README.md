@@ -1,0 +1,2 @@
+# WAUpdater
+Windows Apps Updater
