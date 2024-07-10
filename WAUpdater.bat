@@ -1,9 +1,11 @@
 @echo off
-echo Willkommen bei WAUpdater
-echo Dieses Programm Updatet viele Apps auf dem Computer
-echo Copyright (C) 2023 deutschich
-echo "Suche nach Updates..."
+echo Welcome to WAUpdater
+echo This program updates many apps on the computer
+echo Version 2024/1 by deutschich
+echo Check for updates...
 winget update
-echo "Updates werden installiert..."
+echo If you want to install the updates, press any key!
+pause
+echo Updates are being installed...
 winget update -r
-echo "Fertig!"
+echo Complete!
